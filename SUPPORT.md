@@ -1,13 +1,13 @@
 # Support & astuces — dépôt Wado
 
-Ce fichier regroupe des **commandes** et **bonnes pratiques** utiles pour travailler sur le monorepo (notamment le site **`web/foil-webapp`**). Ce n’est pas une politique de support produit : pour les utilisateurs finaux du site, prévoir une page contact ou un canal dédié.
+Ce fichier regroupe des **commandes** et **bonnes pratiques** utiles pour travailler sur le monorepo (notamment le site **`web/composites-webapp`**). Ce n’est pas une politique de support produit : pour les utilisateurs finaux du site, prévoir une page contact ou un canal dédié.
 
 ---
 
-## Webapp Foil (`web/foil-webapp`)
+## Webapp Foil (`web/composites-webapp`)
 
 ```bash
-cd web/foil-webapp
+cd web/composites-webapp
 npm install
 npm run dev
 npm run lint
