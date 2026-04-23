@@ -1,0 +1,8 @@
+blender/rendus/
+blender/assets/
+
+*.blend
+*.glb
+
+.claude
+.cursor
