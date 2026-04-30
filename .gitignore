@@ -2,6 +2,7 @@ blender/rendus/
 blender/assets/
 
 *.blend
+*.blend*
 *.glb
 
 .claude

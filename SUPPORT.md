@@ -49,6 +49,8 @@ ffmpeg -i entree.mov -vf "scale=-2:720" -c:v libx264 -pix_fmt yuv420p \
 ```bash
 ffmpeg -i entree.mov -an -c:v libx264 -pix_fmt yuv420p \
   -crf 24 -preset slow -movflags +faststart sortie_sans_audio.mp4
+
+ffmpeg -i entree.mp4 -an -vcodec libx264 -crf 18 -preset slow -pix_fmt yuv420p -movflags +faststart sortie_opti.mp4
 ```
 
 ### Extraire un extrait (10 s à partir de 5 s)
